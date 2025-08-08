@@ -1,0 +1,18 @@
+.idade {
+    color: white;
+    background-color: black;
+}
+
+table, td, th {
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
