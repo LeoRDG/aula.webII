@@ -1,0 +1,21 @@
+.frio{
+    background-color: aqua;
+}
+
+.agra {
+    background-color: grey;
+}
+
+.quente {
+    background-color: brown;
+}
+
+table , td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td {
+    width: 200px;
+    height: 25px;
+}
