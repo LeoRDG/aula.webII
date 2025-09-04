@@ -10,12 +10,35 @@
     background-color: brown;
 }
 
-table , td{
+table {
+    margin: 10px;
+}
+
+table , td, th{
     border: 1px solid;
     border-collapse: collapse;
 }
 
-td {
+.temp td{
     width: 200px;
-    height: 25px;
+    padding: 5px;
+}
+
+.notas td, th {
+    border-color: rgb(255, 255, 255);
+    text-align: left;
+    width: 80px;
+}
+
+th {
+    background-color: rgb(151, 197, 126);
+}
+
+
+th {
+    padding: 5px;
+}
+
+img {
+    height: 80px
 }
