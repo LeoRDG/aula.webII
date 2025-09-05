@@ -1,0 +1,11 @@
+input {
+    outline: none;
+}
+
+.erro {
+    border-color: red;
+}
+
+.correto {
+    border-color: green;
+}
