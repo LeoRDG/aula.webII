@@ -1,0 +1,12 @@
+#teste {
+    outline: 1px solid red;
+}
+
+.riscado {
+    text-decoration: line-through;
+    color: red;
+}
+
+* {
+    cursor:wait
+}
