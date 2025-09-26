@@ -1,0 +1,25 @@
+.produto {
+    background-color: black;
+    color: white;
+    margin: 2px;
+    font-size: 18px;
+}
+
+.produto:hover {
+    background-color: rgb(67, 67, 67);
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+ul {
+    padding: 0px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
