@@ -30,11 +30,11 @@
         </div>
 
         <div class="mb-3">
-            <input type="text" class="inp form-control" name="altura" id="altura" aria-describedby="helpId"
+            <input type="number" class="inp form-control" name="altura" id="altura" aria-describedby="helpId"
                 placeholder="Altura (m)" />
         </div>
         <div class="mb-3">
-            <input type="text" class="inp form-control" name="peso" id="peso" aria-describedby="helpId"
+            <input type="number" class="inp form-control" name="peso" id="peso" aria-describedby="helpId"
                 placeholder="Peso (kg)" />
         </div>
 
@@ -43,11 +43,11 @@
             <label class="form-check-label" for="concordo"> Concordo com os termos </label>
         </div>
 
-        <button type="button" class="btn btn-primary" disabled id="calcular">
+        <button type="button" class="btn btn-primary" id="calcular" disabled>
             Calcular IMC
         </button>
 
-        <div id="resultado" hidden>
+        <div id="resultado">
             <img src="imgs/f1.png" id="img" alt="">
             <p id="imc_desc"> IMC = ...</p>
         </div>
