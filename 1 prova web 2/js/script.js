@@ -24,7 +24,8 @@ $(window).ready(() => {
     // O valor total só aparece se o numero for valido
     qtd.on("keyup change", () => {
         let valor_total = Math.max( parseInt(qtd.val()) * 1109, 0);
-        if (valor_total && valor_total > 0) valor.val("R$ " + valor_total);
+        let formatado = Intl.NumberFormat("pt-br").format(valor_total);
+        if (valor_total && valor_total > 0) valor.val("R$ " + formatado);
         else valor.val("");
     }
     );
@@ -43,7 +44,8 @@ $(window).ready(() => {
             msg.text("Informe a quantidade!");
             msg.css("color", "red");
         };
-        // mostra a mesnsagem no final
-        msg.show();
+        // mostra a mesnsagem no final e esconde depois de alguns segundos
+        msg.slideDown(10);
+        setTimeout(() => {msg.fadeOut(300)}, 2000)
     }
 });
