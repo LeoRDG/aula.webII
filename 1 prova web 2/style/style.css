@@ -1,0 +1,75 @@
+img {
+    height: 300px;
+}
+
+* {
+    text-align: center;
+}
+
+input,
+select,
+button {
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    font-size: 1.1em;
+}
+
+option,
+input {
+    text-align: left;
+    padding-left: 10px;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(190, 190, 190);
+
+}
+
+label {
+    width: 100%;
+    display: inline;
+    font-weight: bold;
+}
+
+.preco *, #msg {
+    margin-bottom: 1px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.preco,
+#msg{
+    font-size: 1.45em;
+    color: grey;
+    font-weight: bold;
+}
+
+#preco-final {
+    font-size: 1.25em;
+    color: blue;
+}
+
+#previsao{
+    background-color: salmon;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#main {
+    max-width: 600px;
+    margin-top: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 20px;
+    padding: 10px;
+}
