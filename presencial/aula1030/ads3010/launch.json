@@ -1,0 +1,15 @@
+[{
+    "name": "Launch Chrome",
+    "request": "launch",
+    "type": "chrome",
+    "url": "http://localhost/${workspaceFolderBasename}/${relativeFile}",
+    "webRoot": "${workspaceFolder}"
+},
+{
+    "type": "msedge",
+    "request": "launch",
+    "name": "Launch Edege",
+    "url": "http://localhost/${workspaceFolderBasename}/${relativeFile}",
+    "webRoot": "${workspaceFolder}"
+}
+]
